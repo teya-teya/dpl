@@ -1,0 +1,92 @@
+body {
+  background-color: rgb(222, 222, 222);
+}
+header {
+  font-family: "Montserrat", sans-serif;
+}
+footer {
+  font-family: "Montserrat", sans-serif;
+}
+h5 {
+  font-family: "El Messiri", sans-serif;
+  font-weight: bold;
+}
+.navbar-main {
+  justify-content: end;
+}
+.quote {
+  background-color: #f7f7f7;
+  background-position: center;
+  font-family: "Montserrat", sans-serif;
+}
+.vera {
+  padding-right: 0;
+}
+.vera img {
+  width: 100%;
+  height: auto;
+}
+@media (max-width: 340px) {
+  .vera {
+    min-width: 310px;
+    max-width: 310px;
+    padding: 0;
+    margin: 0;
+  }
+  .quote {
+    min-width: 310px;
+    padding: 3%;
+    margin: 0;
+  }
+}
+@media (min-width: 340px) and (max-width: 767.98px) {
+  .vera {
+    min-width: 340px;
+    max-width: 743px;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 0;
+  }
+  .quote {
+    min-width: 340px;
+    max-width: 743px;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 3%;
+  }
+}
+@media (min-width: 768px) {
+  .vera {
+    min-width: 365px;
+    max-width: 580px;
+    padding-left: 3%;
+  }
+  .quote {
+    padding: 3%;
+  }
+}
+@media (min-width: 950px) {
+  .quote {
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-right: 15px;
+  }
+}
+@media (min-width: 1200px) {
+  .quote {
+    padding-top: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-right: 15px;
+  }
+}
+blockquote::before {
+  content: open-quote;
+  font-size: 30px;
+}
+blockquote::after {
+  content: close-quote;
+  font-size: 30px;
+  text-align: bottom;
+}
