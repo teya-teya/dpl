@@ -198,7 +198,26 @@
       </div>
     </footer>
     <!-- Footer end -->
+    <script>
+      //let vera2 =
 
+      let blackAndWhite = document.querySelector(".g-black-white");
+      blackAndWhite.onmouseover = function () {
+        this.style.transform = "scale(1.2)";
+      };
+      blackAndWhite.onmouseout = function () {
+        this.style.transform = "scale(1)";
+      };
+
+      let colour = document.querySelector(".g-colour");
+      colour.onmouseover = function () {
+        this.style.transform = "scale(1.2)";
+      };
+
+      colour.onmouseout = function () {
+        this.style.transform = "scale(1)";
+      };
+    </script>
     <script
       src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

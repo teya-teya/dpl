@@ -175,7 +175,9 @@ blockquote::after {
   border: rgba(255, 255, 255, 0.349) solid 15px;
   margin-top: 10px;
   margin-bottom: 10px;
+  transition: .5s linear;
 }
+
 .g-black-white a {
   color: rgb(0, 0, 0);
   font-family: "El Messiri", sans-serif;
@@ -194,6 +196,7 @@ blockquote::after {
   border: rgba(255, 255, 255, 0.349) solid 15px;
   margin-top: 10px;
   margin-bottom: 10px;
+  transition: .5s linear;
 }
 .g-colour a {
   color: rgb(0, 0, 0);
