@@ -11,13 +11,26 @@ h5 {
   font-family: "El Messiri", sans-serif;
   font-weight: bold;
 }
+.nav-col {
+  background-color: rgb(222, 222, 222);
+}
 .navbar-main {
   justify-content: end;
 }
-.quote {
+.conq {
+  margin-top: 120px;
+}
+.row1 {
   background-color: #f7f7f7;
+  margin-left: 3%;
+  margin-right: 3%;
+  padding: 1%;
+  /* border: double 4px black; */
+}
+.quote {
   background-position: center;
   font-family: "Montserrat", sans-serif;
+  background-color: #f7f7f7;
 }
 .vera {
   padding-right: 0;
@@ -158,6 +171,7 @@ h5 {
     padding-left: 5%;
     padding-right: 5%;
     margin-right: 15px;
+    max-width: 1250px;
   }
 }
 blockquote::before {

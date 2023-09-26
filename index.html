@@ -27,8 +27,8 @@
   <body>
     <!-- Main nav start -->
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light main-nav">
-        <a class="navbar-brand" href="/"><img src="images/" alt="лого" /></a>
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light main-nav nav-col">
+        <a class="navbar-brand" href="/"><img src="images/5.png" alt="лого" /></a>
         <!-- бургерное меню -->
         <button
           class="navbar-toggler"
@@ -67,7 +67,7 @@
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="#">Black & White</a>
-                <a class="dropdown-item" href="#">Color</a>
+                <a class="dropdown-item" href="#">Colour</a>
               </div>
             </li>
 
@@ -90,8 +90,8 @@
     <!-- Main nav end -->
     <main>
       <!-- Main quote start -->
-      <div class="container-fluid mt-5">
-        <div class="row m-0 p-0">
+      <div class="container-fluid conq">
+        <div class="row row1">
           <div class="col vera">
             <img src="images/vera.jpg" alt="vera_asaeva" />
           </div>
@@ -203,7 +203,21 @@
     </footer>
     <!-- Footer end -->
     <script>
-      //let vera2 =
+    
+      let vera = document.getElementById("vera_1")
+      let veras = ["images/vera1.jpg", "images/vera2.jpg"];
+      let i = 0;
+    function SetImage() {
+        if (i == 0) {
+          vera.setAttribute("src", veras[1]);
+          i = 1;
+        } else {
+          vera.setAttribute("src", veras[0]);
+          i = 0;
+        }
+      }
+      setInterval(SetImage, 7000);
+
 
       let blackAndWhite = document.querySelector(".g-black-white");
       blackAndWhite.onmouseover = function () {
@@ -217,26 +231,9 @@
       colour.onmouseover = function () {
         this.style.transform = "scale(1.2)";
       };
-
       colour.onmouseout = function () {
         this.style.transform = "scale(1)";
       };
-
-      let vera = document.getElementById("vera_1")
-      let veras = ["images/vera1.jpg", "images/vera2.jpg"];
-      let i = 0;
-
-      function SetImage() {
-        if (i == 0) {
-          vera.setAttribute("src", veras[1]);
-          i = 1;
-        } else {
-          vera.setAttribute("src", veras[0]);
-          i = 0;
-        }
-      }
-
-      setInterval(SetImage, 7000);
 
 
     </script>
