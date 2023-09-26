@@ -26,6 +26,10 @@ h5 {
   width: 100%;
   height: auto;
 }
+.vera2 img {
+  width: 100%;
+  height: auto;
+}
 .about {
   background-color: #f7f7f7;
   border: double 4px black;
@@ -106,9 +110,9 @@ h5 {
     padding: 3%;
   }
   .vera2 {
-    min-width: 290px;
-    padding: 0;
-    max-width: 470px;
+      min-width: 290px;
+      padding: 0;
+      max-width: 470px;
   }
   .about {
     padding: 5%;
@@ -177,7 +181,6 @@ blockquote::after {
   margin-bottom: 10px;
   transition: .5s linear;
 }
-
 .g-black-white a {
   color: rgb(0, 0, 0);
   font-family: "El Messiri", sans-serif;
