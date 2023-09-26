@@ -54,6 +54,12 @@ h5 {
   .about {
     min-width: 290px;
   }
+  .g-black-white {
+    padding-top: 35%;
+  }
+  .g-colour {
+  padding-top: 35%;
+}
 }
 @media (min-width: 340px) and (max-width: 767.98px) {
   .vera {
@@ -83,6 +89,12 @@ h5 {
     margin: 0;
     padding: 0;
   }
+  .g-black-white {
+    padding-top: 35%;
+  }
+  .g-colour {
+  padding-top: 35%;
+}
 }
 @media (min-width: 768px) {
   .vera {
@@ -101,6 +113,15 @@ h5 {
   .about {
     padding: 5%;
     margin-right: 5%;
+  }
+  .gallery {
+    max-width: 700px;
+  }
+  .g-black-white {
+    padding-top: 45%;
+  }
+  .g-colour {
+    padding-top: 45%;
   }
 }
 @media (min-width: 950px) {
@@ -143,4 +164,42 @@ blockquote::after {
   content: close-quote;
   font-size: 30px;
   text-align: bottom;
+}
+.g-black-white {
+  height: 380px;
+  width: 263px;
+  background-image: url(../images/black&white/msg204506529-37922\ —\ копия.jpg);
+  text-align: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  border: rgba(255, 255, 255, 0.349) solid 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.g-black-white a {
+  color: rgb(0, 0, 0);
+  font-family: "El Messiri", sans-serif;
+  font-weight: bold;
+}
+.g-black-white div {
+  background-color: rgba(255, 255, 255, 0.349);
+}
+.g-colour {
+  height: 380px;
+  width: 263px;
+  background-image: url(../images/color/msg204506529-37932\ —\ копия.jpg);
+  text-align: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  border: rgba(255, 255, 255, 0.349) solid 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.g-colour a {
+  color: rgb(0, 0, 0);
+  font-family: "El Messiri", sans-serif;
+  font-weight: bold;
+}
+.g-colour div {
+  background-color: rgba(255, 255, 255, 0.349);
 }
