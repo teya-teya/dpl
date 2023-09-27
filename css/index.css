@@ -75,8 +75,8 @@ h5 {
     padding-top: 35%;
   }
   .g-colour {
-  padding-top: 35%;
-}
+    padding-top: 35%;
+  }
 }
 @media (min-width: 340px) and (max-width: 767.98px) {
   .vera {
@@ -110,8 +110,8 @@ h5 {
     padding-top: 35%;
   }
   .g-colour {
-  padding-top: 35%;
-}
+    padding-top: 35%;
+  }
 }
 @media (min-width: 768px) {
   .vera {
@@ -123,9 +123,9 @@ h5 {
     padding: 3%;
   }
   .vera2 {
-      min-width: 290px;
-      padding: 0;
-      max-width: 470px;
+    min-width: 290px;
+    padding: 0;
+    max-width: 470px;
   }
   .about {
     padding: 5%;
@@ -193,7 +193,7 @@ blockquote::after {
   border: rgba(255, 255, 255, 0.349) solid 15px;
   margin-top: 10px;
   margin-bottom: 10px;
-  transition: .5s linear;
+  transition: 0.5s linear;
 }
 .g-black-white a {
   color: rgb(0, 0, 0);
@@ -213,7 +213,7 @@ blockquote::after {
   border: rgba(255, 255, 255, 0.349) solid 15px;
   margin-top: 10px;
   margin-bottom: 10px;
-  transition: .5s linear;
+  transition: 0.5s linear;
 }
 .g-colour a {
   color: rgb(0, 0, 0);
@@ -223,6 +223,17 @@ blockquote::after {
 .g-colour div {
   background-color: rgba(255, 255, 255, 0.349);
 }
+.carover {
+  margin-top: 7%;
+}
+.carover img {
+  max-height: 450px;
+  width: auto;
+  display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
 .icon-vk {
   display: block;
   background: -webkit-linear-gradient(right, #4fb0ce, deeppink);
