@@ -1,0 +1,38 @@
+<!-- Main gallery start -->
+<div class="container gallery mt-5">
+  <div class="row p-3 justify-content-center">
+    <h5 id="gal">Г А Л Е Р Е Я</h5>
+  </div>
+
+  <div class="row justify-content-between">
+    <div class="col">
+      <div class="container g-black-white">
+        <div class="container"><a href="/black&white">BLACK AND WHITE</a></div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="container g-colour">
+        <div class="container"><a href="colour">COLOUR</a></div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Main gallery end -->
+<script>
+  let blackAndWhite = document.querySelector(".g-black-white");
+  blackAndWhite.onmouseover = function () {
+    this.style.transform = "scale(1.2)";
+  };
+  blackAndWhite.onmouseout = function () {
+    this.style.transform = "scale(1)";
+  };
+
+  let colour = document.querySelector(".g-colour");
+  colour.onmouseover = function () {
+    this.style.transform = "scale(1.2)";
+  };
+  colour.onmouseout = function () {
+    this.style.transform = "scale(1)";
+  };
+</script>
