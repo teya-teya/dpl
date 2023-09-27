@@ -48,9 +48,9 @@
         >
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link" href="/v_asaeva"
-                >Фотограф Вера Асаева<span class="sr-only">(текущая)</span></a
-              >
+              <a class="nav-link" href="/v_asaeva">Фотограф Вера Асаева
+                <span class="sr-only">(текущая)</span>
+                </a>
             </li>
 
             <li class="nav-item dropdown">
@@ -98,8 +98,8 @@
 
 
     <!-- Footer start -->
-    <footer>
-      <div class="container-fluid py-4 text-center main-footer">
+    <footer class="footer fixed-bottom py-2">
+      <div class="container-fluid text-center">
         Copyright &copy;
         <script>
           document.write(new Date().getFullYear());
