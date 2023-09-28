@@ -260,9 +260,15 @@ blockquote::after {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.card-columns .card {
+  font-family: "El Messiri", sans-serif;
+}
 .card-columns .card:hover {
   cursor: pointer;
   box-shadow: 0 0 50px 50px rgb(0, 0, 0);
+}
+.card-columns .card2 {
+  font-family: "El Messiri", sans-serif;
 }
 .card-columns .card2:hover {
   cursor: pointer;
