@@ -15,8 +15,6 @@ if ($url[1] == "v_asaeva") {
   $content = file_get_contents("pages/services.html");
 } else if ($url[1] == "reviews") {
   $content = file_get_contents("pages/reviews.html");
-} else if ($url[1] == "blog") {
-  $content = file_get_contents("pages/blog.html");
 } else if ($url[1] == "contacts") {
   $content = file_get_contents("pages/contacts.html");
 } else {

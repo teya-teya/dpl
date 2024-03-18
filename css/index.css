@@ -8,6 +8,10 @@ footer {
   font-family: "Montserrat", sans-serif;
   background-color: rgb(222, 222, 222);
 }
+h3.head-all {
+  font-family: "El Messiri", sans-serif;
+  font-weight: bolder;
+}
 h5 {
   font-family: "El Messiri", sans-serif;
   font-weight: bold;
@@ -82,6 +86,9 @@ main {
   .g-colour {
     padding-top: 35%;
   }
+  .btn-cont {
+    min-width: 338px;
+  }
 }
 @media (min-width: 340px) and (max-width: 767.98px) {
   .vera {
@@ -116,6 +123,10 @@ main {
   }
   .g-colour {
     padding-top: 35%;
+  }
+  .btn-cont {
+    min-width: 322px;
+    max-width: 338px;
   }
 }
 @media (min-width: 768px) {
@@ -241,21 +252,21 @@ blockquote::after {
 
 .icon-vk {
   display: block;
-  background: -webkit-linear-gradient(right, #4fb0ce, deeppink);
+  background: -webkit-linear-gradient(right, #e6b824, deeppink);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .icon-in {
   display: block;
-  background: -webkit-linear-gradient(left, #4fb0ce, deeppink);
+  background: -webkit-linear-gradient(left, #3cb61e, deeppink);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .icon-tg {
   display: block;
-  background: #4fb0ce;
+  background: -webkit-linear-gradient(right, rgb(34, 141, 13), #ebcd4b);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -274,3 +285,25 @@ blockquote::after {
   cursor: pointer;
   box-shadow: 0 0 70px 70px rgb(255, 255, 255);
 }
+a.contact {
+  color:black;
+}
+a.contact:hover {
+  color:whitesmoke;
+}
+.btn-cont {
+  height: 96px;
+  font-family: "El Messiri", sans-serif;
+    font-weight: bold;
+    font-size: large;
+    background-color: rgba(243, 241, 229, 0.397);
+    border: 8px groove rgb(241, 241, 241);
+    border-radius: 20px; 
+
+} 
+.cont {
+  padding: 10px;
+border: 5px solid rgb(158, 154, 154);
+  border-radius: 10px; 
+    }
+
